@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<HTML>
+<HEAD>
+<link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<div class="container">
+
+<header>
+    <!--<div id="cf">
+      <img class="bottom" src="background1.png" />
+      <img class="top" src="background.png" />
+    </div>-->
+   <img src="images/project.jpg" alt="background" style="width:100%;height:245px;" />
+</header>
+  
+<nav>
+  <ul class="tab">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="publication.html">Publications</a></li>
+    <li><a href="area.html">Area of Interest</a></li>
+    <li><a href="work.html">Work Experience</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contacts.html">Contacts</a></li>
+    <li><a href="resume.html">Resume</a></li>
+  </ul>
+</nav>
+
+<!--<ul class="tab">
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'London')">Home</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Paris')">Paris</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</a></li>
+</ul> -->
+
+
+
+<aside>
+<img src="images/anindya-prodhan.jpg" alt="Profile Pic" style="width:171px;height:228px;"/>
+<h1 style="text-align:center;">Md Anindya Tahsin Prodhan</h1>
+
+<ul class="tab">
+  <li><a href="#software">Software Projects</a></li>
+  <li><a href="#hardware">Hardware Projects</a></li>
+</ul>
+</aside>
+
+<article>
+<!--<a name="home"><h2>Research Interest</h2></a>-->
+<section id="software">
+<h2>Software Projects</h2>
+<table border="1">
+<dl>
+<tr><td>
+<dt> <span style="font-weight:bold">Mapping User Comments back to Newspaper Articles:</span></dt> <dd>We used information retrieval techniques to map readers’ comments on newspaper article back to the article itself in order to automate editors pick and rank the comments based on relevance of the comments. We used a language model to formalize our problem and Apache lucene was used to rank the documents (comments). The code was developed in JAVA and it is available in <a href="https://github.com/anindyatahsin/IR">github</a>.
+</dd></td></tr>
+<tr><td>
+<dt> <span style="font-weight:bold">JSDL++:</span></dt>
+<dd>
+We have implemented an upgrade on Job Submission Description Language (JSDL) an extensible XML specification from the Global Grid Forum for the description of simple tasks to non-interactive computer execution systems, called JSDL++ (JSDL version 2.0). JSDL++ can specify multiple job descriptions on one JSDL document which is highly useful in a heterogeneous distributed environment where different end points requires different executables and different set up requirements. In such case, one JSDL document will suffice to make the job executable on all these environments. JSDL++ is already integrated with the production grid middleware Genesis II (developed in-house by UVa Engineers) and used by grid users at University of Virginia, Indiana University and XSEDE.
+</dd>
+</td></tr>
+<tr><td>
+<dt> <span style="font-weight:bold">Tiling Puzzle Solver:</span></dt>
+<dd>
+We developed a tiling puzzle solver as a part of the fulfillment of Theory of Computation course requirements.  We implemented dancing links to solve arbitrary puzzles using Knuth's algorithm X. You can download the  
+<a href="Media/tiling-puzzle.jar">jar</a> from here.
+</d>
+</td></tr>
+<tr><td>
+<dt> <span style="font-weight:bold">Garments Management Information System:</span></dt>
+<dd>
+In this project an automated inventory and production system for a garments factory was implemented. In order to complete the project we followed all the formal steps of software engineering like requirement analysis, requirement modeling, specifying control etc. And the software was implemented in Java Platform with oracle in Back end. Some snapshots of the project are available <a href="Media/GMIS.zip">here</a>.
+</dd>
+</td></tr>
+
+<tr><td>
+<dt> <span style="font-weight:bold">Implementation of Unix File System & Memory Management System:</span><dt>
+<dd>
+Here an efficient and flexible file system for UNIX operating system was implemented. In this project all basic data structures of UNIX file system like inode, super block, boot block etc were used. The system was implemented using UNIX c language. Also a Dynamic Memory Manager was implemented for Unix System. The system was capable of allocating and releasing variable size block and splitting and merging of distributed block dynamically.</dd>
+</td></tr>
+
+</table>
+</section>
+<section id="hardware">
+<h2>Hardware Projects</h2>
+<table border="1">
+<ul>
+<tr><td>
+<dt> <span style="font-weight:bold">Energy Efficient Water Heaters:</span></dt> 
+<dd>In the project we designed an efficient tankless water heating system which aims to reduce the energy consumption of a traditional tankless water heater by reducing the stand-by energy and pipe loss of the traditional heaters. This work was later submitted and accepted as a <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uWM5LlsAAAAJ&citation_for_view=uWM5LlsAAAAJ:eQOLeE2rZwMC">US Patent</a>.
+</dd></td></tr>
+<tr><td>
+<dt> <span style="font-weight:bold">Smart Room:</span> <br><a href="http://smartroom.awardspace.com">(http://smartroom.awardspace.com)</a></dt>
+<dd>
+In this project a room was interfaced with the computer to control the electrical devices of the room. In the room two modes of control was implemented- autonomous and manual. In autonomous mode the electrical devices are switched on or off based on the number of people on the room and the temperature and the available light. In manual mode the devices can be controlled through voice or blue tooth device or sms. The project was built on .NET(C#) platform. J2ME was used for mobile interfacing and Microsoft speech SDK was used for voice interfacing.
+</dd>
+</td></tr>
+<tr><td>
+<dt> <span style="font-weight:bold">4-bit Microprocessor:</span><dt>
+<dd>
+This microprocessor can execute a set of 29 instructions from Intel 80x86 processor family. It had micro programmed control unit with separate data and instruction RAM. 
+</dd>
+</td></tr>
+
+</table>
+
+
+
+</section>
+</article>
+
+<footer>
+<HR>
+<A HREF="http://www.virginia.edu/">Go to the University of Virginia home page</A>
+<BR><BR>
+<A HREF="http://www.itc.virginia.edu/desktop/web">Learn more about web page design at UVa</A>
+<P>
+
+<I>Maintained by <A HREF="mailto:mtp5cx@virginia.edu">mtp5cx@virginia.edu</A>
+<BR>
+Last Modified:  Jan 24, 2016
+</I>
+</footer>
+
+</BODY>
+</HTML>
